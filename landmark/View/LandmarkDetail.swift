@@ -18,7 +18,6 @@ struct LandmarkDetail: View {
     var body: some View {
         ScrollView {
 
-
             VStack(alignment: .leading) {
                 HStack {
                     Text(landmark.name)

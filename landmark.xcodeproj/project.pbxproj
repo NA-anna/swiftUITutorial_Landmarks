@@ -110,12 +110,28 @@
 		A4B062B329A8885900113BB3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4E1F59F29BCE8DC005B02F5 /* Landmark */,
+				A4E1F59E29BCE8B5005B02F5 /* Category */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4E1F59E29BCE8B5005B02F5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
 				A4B062A529A8749C00113BB3 /* CategoryHome.swift */,
 				A4B062B429A8889700113BB3 /* CategoryRow.swift */,
 				A4B062B629A88B3600113BB3 /* CategoryItem.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A4E1F59F29BCE8DC005B02F5 /* Landmark */ = {
+			isa = PBXGroup;
+			children = (
 				A4B062B829A8946500113BB3 /* LandmarkDetail.swift */,
 			);
-			path = View;
+			path = Landmark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

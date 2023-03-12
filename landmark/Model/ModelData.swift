@@ -6,8 +6,10 @@
 //
 
 import Foundation
-import Combine
+import Combine // https://developer.apple.com/tutorials/swiftui/handling-user-input -> Section 4. Use an Observable Object for Storage
 
+// ObservableObject : SwiftUI는 ObservableObject(관찰 가능한 객체)를 구독하고, 데이터가 변경될 때 새로 고침이 필요한 뷰를 업데이트합니다.
+// @Published 속성 추가: ObservableObject(관찰 가능한 객체)는 구독자가 변경 사항을 선택할 수 있도록 데이터에 대한 변경 사항을 게시해야 합니다.
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     //var hikes: [Hike] = load("hikeData.json")

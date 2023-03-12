@@ -7,7 +7,7 @@ A view showing the details for a landmark.
 
 import SwiftUI
 
-struct LandmarkDetail: View {
+struct LandmarkDetailX: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
 
@@ -44,7 +44,7 @@ struct LandmarkDetail: View {
     }
 }
 
-struct LandmarkDetail_Previews: PreviewProvider {
+struct LandmarkDetailX_Previews: PreviewProvider {
     static let modelData = ModelData()
 
     static var previews: some View {
